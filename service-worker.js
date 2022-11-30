@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/abbat01/personal-portfolio/precache-manifest.6234796902ac1d50b1f373e3cd44a068.js"
+  "/personal-portfolio/precache-manifest.3f4c01f15e05b59ae54290b032606fcd.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/abbat01/personal-portfolio/index.html", {
+workbox.routing.registerNavigationRoute("/personal-portfolio/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
